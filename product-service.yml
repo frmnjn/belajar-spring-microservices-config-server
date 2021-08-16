@@ -1,0 +1,7 @@
+spring.datasource.driver-class-name: org.postgresql.Driver
+spring.jpa.database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+spring.jpa.hibernate.ddl-auto: update
+spring.datasource.initialization-mode: always
+spring.jpa.show-sql: true
+
+test.name: test
